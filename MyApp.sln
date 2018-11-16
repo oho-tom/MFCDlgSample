@@ -6,9 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyApp", "MyApp\MyApp.vcxproj", "{757164A1-688A-4E78-8225-4931F6ECFFD4}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D22022EE-E384-47FD-8256-DE417E4362F0} = {D22022EE-E384-47FD-8256-DE417E4362F0}
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A} = {71B37EF1-896D-47E2-B6EF-CE594A07154A}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLibStatic", "..\CppLib\project\CppLibStatic\CppLibStatic.vcxproj", "{D22022EE-E384-47FD-8256-DE417E4362F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCLibStatic", "..\MFCLib\project\MFCLibStatic\MFCLibStatic.vcxproj", "{71B37EF1-896D-47E2-B6EF-CE594A07154A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,14 @@ Global
 		{D22022EE-E384-47FD-8256-DE417E4362F0}.Release|x64.Build.0 = Release|x64
 		{D22022EE-E384-47FD-8256-DE417E4362F0}.Release|x86.ActiveCfg = Release|Win32
 		{D22022EE-E384-47FD-8256-DE417E4362F0}.Release|x86.Build.0 = Release|Win32
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Debug|x64.ActiveCfg = Debug|x64
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Debug|x64.Build.0 = Debug|x64
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Debug|x86.ActiveCfg = Debug|Win32
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Debug|x86.Build.0 = Debug|Win32
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Release|x64.ActiveCfg = Release|x64
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Release|x64.Build.0 = Release|x64
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Release|x86.ActiveCfg = Release|Win32
+		{71B37EF1-896D-47E2-B6EF-CE594A07154A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
